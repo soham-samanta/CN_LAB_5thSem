@@ -1,0 +1,9 @@
+Q1) wap in c to create  a TCP socket through which client will send a string to the server, 
+and server will echo back the string to the client. When client will send exit then server 
+will drop the connection
+
+Q2) wap in c to create a TCP socket throgh which client will send an integer number to the server. 
+Server will return back the reverse of that number to the client.
+
+Q3) wap in c to create a TCP socket throgh which client will send an integer array to the server.
+Server will sort the array in ascending order and return back to the client.
