@@ -1,0 +1,2 @@
+q2) wap to create an udp socket through which client will send 2 int no. to the server 
+server will return back the summation of the these two int to the client and client will display .
