@@ -1,0 +1,21 @@
+
+
+LAB 4:
+
+1)create a TCP socket through which the client will send a roll number of student to the server. 
+Server has a record of name,roll number,marks of 5 subjects of 10 students. 
+Server will recieve the roll number getting from the client and it will search the roll number 
+on its record. If the roll number matches then the server will send back the details of the student 
+to the client.
+
+2)Create a TCP socket through which two client can connect a server. 
+The first client will send a number to the server and server will forward that number to the 
+second client nd second client will send a number to the server and server will forward that 
+number to the first client.
+
+3)Create a TCP socket through which two clients will connect to the server. 
+Clients can chat with each other via server
+
+WAP a program to create an UDP socket through which client wills send two integer 
+number to the server and server will return back the summation of the two integers to 
+the client and client will display the result

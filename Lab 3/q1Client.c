@@ -7,7 +7,16 @@
 #include <arpa/inet.h>
 #include <fcntl.h>
 #include <string.h>
-main()
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <fcntl.h> // for open
+#include <unistd.h> // for close
+int main()
 {
     int i, sockfd, a, b, p = 6, q = 7, r;
     char buf[100];

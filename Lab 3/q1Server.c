@@ -7,7 +7,16 @@
 #include <unistd.h> // for close
 #include <fcntl.h>
 #include <string.h>
-main()
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <fcntl.h> // for open
+#include <unistd.h> // for close
+int main()
 {
     int sockfd, fd1, length, i, x, y, sum;
     char buf[100], p[3]; /* We will use this buffer for communication */
